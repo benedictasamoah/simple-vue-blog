@@ -1,11 +1,12 @@
+/** Footer **/
 .footer{
     position: relative;
     width: 100%;
     color: #333;
     background: #f6f6f6;
-    height: 300px;
+    min-height: 300px;
     margin: 50px 0 0 0;
-    padding: 50px 0 0 0;
+    padding: 50px 0;
 }
 .footer h2 a{
     color: #333;
@@ -26,7 +27,7 @@
     overflow: hidden;
   }
   .footer .newsletter:focus {
-    outline: none;
+    outline: none !important;
   }
   .footer .newsletter .form-control {
     border: none;
@@ -37,6 +38,7 @@
   .footer .newsletter input {
     padding: 10px;
     height: 44px;
+    outline: none !important;
   }
   .footer .newsletter button {
     border: none;
@@ -78,3 +80,19 @@
     z-index: 2;
     margin-left: 0px;
   }
+
+   /** Responsiveness **/
+
+ @media (max-width: 1023px) {
+  .footer .ivu-col:last-child{
+    margin-top: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .footer{
+    margin: 0;
+  }
+  .footer .ivu-col:first-child{
+    margin-bottom: 30px;
+  }
+}
