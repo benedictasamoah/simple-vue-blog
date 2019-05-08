@@ -11,11 +11,52 @@
 
           <div
             class="image"
-            style="background: url(https://images.unsplash.com/uploads/1412026095116d2b0c90e/3bf33993?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80);"
+            style="background: url(https://images.pexels.com/photos/1642883/pexels-photo-1642883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);"
           ></div>
         </Row>
         <Row type="flex" justify="center" class="content">
-          <Col :xs="23" :sm="16" :md="16" :lg="16">
+          <Col :xs="23" :sm="2" :md="2" :lg="2">
+            <div id="fixed-social">
+              <div>
+                <a href="#" class="fixed-facebook" target="_blank">
+                  <Icon type="social-facebook"></Icon>
+                  <span>Facebook</span>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="fixed-twitter" target="_blank">
+                  <Icon type="social-twitter"></Icon>
+                  <span>Twitter</span>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="fixed-gplus" target="_blank">
+                  <Icon type="social-googleplus"></Icon>
+                  <span>Google+</span>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="fixed-linkedin" target="_blank">
+                  <Icon type="social-linkedin"></Icon>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="fixed-instagrem" target="_blank">
+                  <Icon type="social-instagram"></Icon>
+                  <span>Instagram</span>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="fixed-tumblr" target="_blank">
+                  <Icon type="social-tumblr"></Icon>
+                  <span>Tumblr</span>
+                </a>
+              </div>
+            </div>
+          </Col>
+
+          <Col :xs="23" :sm="14" :md="14" :lg="14">
             <h1>Living Yoga</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -32,14 +73,11 @@
             ></div>
             <Row>
               <div class="comments">
-                <vue-disqus
-                  shortname="your_shortname_disqus"
-                  :identifier="page_id"
-                  url="http://example.com/path"
-                ></vue-disqus>
+                <vue-disqus shortname="simple-blog-4" url="http://localhost:8080"></vue-disqus>
               </div>
             </Row>
           </Col>
+
           <Col :xs="23" :sm="6" :md="6" :lg="6" :offset="1" class="articles">
             <h2>Other Articles</h2>
             <ul>

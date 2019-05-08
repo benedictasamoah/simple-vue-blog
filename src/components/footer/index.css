@@ -1,0 +1,80 @@
+.footer{
+    position: relative;
+    width: 100%;
+    color: #333;
+    background: #f6f6f6;
+    height: 300px;
+    margin: 50px 0 0 0;
+    padding: 50px 0 0 0;
+}
+.footer h2 a{
+    color: #333;
+}
+.footer a{
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 5px 0;
+    color: #7d8c97;  
+}
+.footer .newsletter {
+    background: #fff;
+    width: 100%;
+    margin: 10px auto;
+    border: solid 1px #7d8c97;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .footer .newsletter:focus {
+    outline: none;
+  }
+  .footer .newsletter .form-control {
+    border: none;
+  }
+  .footer .newsletter .form-control:focus {
+    box-shadow: none;
+  }
+  .footer .newsletter input {
+    padding: 10px;
+    height: 44px;
+  }
+  .footer .newsletter button {
+    border: none;
+    height: 44px;
+    background-color: #fff;
+    color: #949494;
+    border-left: solid 1px #7d8c97;
+    border-radius: 0;
+    cursor: pointer;
+    float: right;
+    width: 135px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+  }
+  .footer .newsletter button:hover, .footer .newsletter button:focus, .footer .newsletter button:active, .footer .newsletter button:visited {
+    color: #949494;
+    background-color: #f5f5f5;
+    outline: none;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+  }
+  .footer .newsletter button:hover:before, .footer .newsletter button:focus:before, .footer .newsletter button:active:before, .footer .newsletter button:visited:before {
+    background-color: #f5f5f5;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+  }
+  .footer .newsletter .input-group-btn:last-child > .btn, .footer .newsletter .input-group-btn:last-child > .btn-group {
+    z-index: 2;
+    margin-left: 0px;
+  }
