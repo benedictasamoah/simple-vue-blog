@@ -1,24 +1,15 @@
-<style scoped>
-    @import 'styles/common.css';
-</style>
 <template>
-    <div>
-        <router-view></router-view>
-    </div>
+  <div>
+    <navbar></navbar>
+    <router-view></router-view>
+  </div>
 </template>
 <script>
-    export default {
-        data () {
-            return {}
-        },
-        mounted () {
-
-        },
-        beforeDestroy () {
-
-        },
-        methods: {
-
-        }
-    }
+import navbar from "./components/nav/index.vue";
+export default {
+  components: {
+    navbar
+  }
+};
 </script>
+

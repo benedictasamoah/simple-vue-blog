@@ -2,9 +2,9 @@ const routers = [
     {
         path: '/',
         meta: {
-            title: ''
+            title: 'Home'
         },
-        component: (resolve) => require(['./views/index.vue'], resolve)
+        component: (resolve) => require(['./views/home/index.vue'], resolve)
     }
 ];
 export default routers;

@@ -15,8 +15,10 @@
   "author": "Benedict",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "iview": "^3.0.0",
     "vue": "^2.5.16",
+    "vue-disqus": "^3.0.5",
     "vue-router": "^2.8.1"
   },
   "devDependencies": {
