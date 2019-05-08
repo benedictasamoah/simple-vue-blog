@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import iView from 'iview';
+import locale from 'iview/dist/locale/en-US';
 import VueRouter from 'vue-router';
 import Routers from './router';
 import Util from './libs/util';
@@ -7,7 +8,9 @@ import App from './app.vue';
 import 'iview/dist/styles/iview.css';
 
 Vue.use(VueRouter);
-Vue.use(iView);
+
+// Set default language to english
+Vue.use(iView, { locale });
 
 // Set router default mode to history
 const RouterConfig = {
