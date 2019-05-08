@@ -7,8 +7,7 @@ import Util from './libs/util';
 import App from './app.vue';
 
 // import theme
-import '../theme/dist/iview.css';
-import '../theme/custom/index.css';
+import './style/iview.css';
 
 Vue.use(VueRouter);
 
