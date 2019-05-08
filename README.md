@@ -1,6 +1,5 @@
 
 # Simple Vue Blog
-============================
 A basic blog with Vue.js2、Vue-Router、webpack2 and iView, just install and run.
 
 ## Install
